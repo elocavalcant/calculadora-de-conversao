@@ -63,7 +63,3 @@ def PBParaTB(valorASerConvertido):
     TBCalculado = valorASerConvertido * constante
     return TBCalculado
 
-print('Insira o valor a ser convertido')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = GBParaMB(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
